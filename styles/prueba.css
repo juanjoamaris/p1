@@ -1,0 +1,29 @@
+body{
+    background-image: url("https://images.pexels.com/photos/5074833/pexels-photo-5074833.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
+    background-size: cover;
+    height: 750px;
+    }
+@font-face{
+    font-family: PR;
+    src: url(../letra/Lobster-Regular.ttf) format('truetype');
+}
+article{
+    
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+
+}
+article > div > section {
+   
+    font-size: x-large;
+    font-family: PR;
+
+}
+article > div > footer {
+
+    font-size: 24px;
+    font-family: PR;
+}
